@@ -232,8 +232,9 @@ Schreibweise:   23871<sub>16</sub>
 
 ## 1.6 Codierung von Bildern
 
-> [Aufgabe](https://inf-schule.de/kids/datennetze/pixelgrafik)<br/>
-> 1. Bearbeite die Lernstrecke Pixelgrafik einschließlich des Themas "Bildschärfe und Auflösung" und finde den Aufbau und die Eigenschaften von Pixelgrafiken heraus.<br/>
+> [Aufgabe](https://inf-schule.de/kids/datennetze/pixelgrafik)
+
+> 1. Bearbeite die Lernstrecke Pixelgrafik einschließlich des Themas "Bildschärfe und Auflösung" und finde den Aufbau und die Eigenschaften von Pixelgrafiken heraus.
 > 2. Bearbeite das Thema "Ein Bild mit Zahlen darstellen" und erläutere, wie Schwarz und Weiß in einer PBM-Pixelgrafik codiert werden. 
 
 ### 1.6.1 Pixelgrafik

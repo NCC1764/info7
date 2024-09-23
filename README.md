@@ -311,7 +311,7 @@ Ein Bit ist die kleinste Darstellungseinheit im Computer.
 
 **Byte**
 
-``1 Byte = 1 Bit``
+````1 Byte = 1 Bit````
 
 ### 1.7.1 Binärpräfix
 

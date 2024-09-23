@@ -249,7 +249,7 @@ Eine Pixelgrafik auch Rastergrafik  bestehen aus einer rasterförmigen Anordnung
 Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe. 
 </div>
 
-### 1.6.2 PBM-Format
+### 1.6.2 PBM-Format "Protable Bitmap"
 
 <!-- data-type="none" -->
 | Zeile |  Inhalt  | Bedeutung                        |
@@ -259,13 +259,45 @@ Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe.
 | ab 3  | 0 oder 1 | Helligkeitswert                  |
 
 
-### 1.6.3 PGM-Format
+### 1.6.3 PGM-Format "Portable Graymap"
 
 <!-- data-type="none" -->
 | Zeile |  Inhalt  | Bedeutung                        |
 |:-----:|:--------:|----------------------------------|
-|   1   |    P1    | Grafikformat                     |
+|   1   |    P2    | Grafikformat                     |
 |   2   |   5 5    | Anzahl Spalten und Anzahl Zeilen |
 |   3   |    15    | maximaler Helligkeitswert        |
 | ab 4  | 0 bis 15 | Helligkeitswert                  |
 
+### 1.6.4 PPM-Format "Portable Pixmap"
+
+<!-- data-type="none" -->
+| Zeile |  Inhalt  | Bedeutung                        |
+|:-----:|:--------:|----------------------------------|
+|   1   |    P3    | Grafikformat                     |
+|   2   |   5 5    | Anzahl Spalten und Anzahl Zeilen |
+|   3   |    1     | maximaler Helligkeitswert        |
+| ab 4  | 0 oder 1 | Helligkeitswert                  |
+
+Ein Pixel wird mit drei Ziffern codiert. Jede Ziffer steht für die Farbe ***Rot Grün Blau***
+
+### 1.6.5 RGB-Farbmodell
+
+Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün und Blau in verschiedenen Intensitäten gemischt werden.
+
+<!-- data-type="none" style="font-family: monospace;"  -->
+| R | G | B |         |
+|:-:|:-:|:-:|:-------:|
+| 1 | 0 | 0 | Rot     |
+| 0 | 1 | 0 | Grün    |
+| 0 | 0 | 1 | Blau    |
+| 0 | 0 | 0 | Schwarz |
+| 1 | 1 | 1 | Weiß    |
+| 1 | 1 | 0 | Gelb    |
+| 1 | 0 | 1 | Magenta |
+| 0 | 1 | 1 | Cyan    |
+
+> [Aufgabe](https://inf-schule.de/kids/datennetze/pixelgrafik/schritt8)
+
+> Verändere den maximalen Helligkeitswert in der Grafik.
+> Beschreibe deine Beobachtung.

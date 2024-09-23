@@ -308,9 +308,7 @@ Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün u
 **Bit**
 
 <div class=kasten>
-Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden.
-Jeden einzelnen Schalterwert nennt ein Bit.
-Ein Bit ist die kleinste Darstellungseinheit im Computer.
+Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden. Jeden einzelnen Schalterwert nennt ein Bit. Ein Bit ist die kleinste Darstellungseinheit im Computer.
 </div>
 
 **Byte**

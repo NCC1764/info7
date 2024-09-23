@@ -22,6 +22,11 @@ mode: Presentation
 dark: false
 
 @style
+
+footer {
+    display: none;
+}
+
 .lia-effect__circle {
     display: none !important;
 }

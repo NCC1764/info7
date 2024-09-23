@@ -282,7 +282,9 @@ Ein Pixel wird mit drei Ziffern codiert. Jede Ziffer steht für die Farbe ***Rot
 
 ### 1.6.5 RGB-Farbmodell
 
+<div class=kasten>
 Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün und Blau in verschiedenen Intensitäten gemischt werden.
+</div>
 
 <!-- data-type="none" style="font-family: monospace;"  -->
 | R | G | B |         |
@@ -304,9 +306,12 @@ Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün u
 ## 1.7 Bits und Bytes
 
 **Bit**
-Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden (an- oder ausgeschaltet).
+
+<div class=kasten>
+Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden.
 Jeden einzelnen Schalterwert nennt ein Bit.
 Ein Bit ist die kleinste Darstellungseinheit im Computer.
+</div>
 
 **Byte**
 

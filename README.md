@@ -117,6 +117,7 @@ Informationen stellen Kenntnisse über Sachverhalte oder Personen dar.
 
 Daten
 -----
+
 <div class="kasten">
 Daten sind die Elemente, die eine Information formal durch Symbole und Zeichen darstellen.
 </div>
@@ -183,10 +184,10 @@ Welche Informationen kannst du den folgenden Daten entnehmen?
 Ein Code ist ein System von Regeln, das eine Zeichenkette in eine andere umwandelt. Codes werden meist dazu verwendet, um Information einfacher darstellen zu können.
 </div>
 
-### 1.5.1 ASCII-Code 
+### 1.5.1 ASCII-Code
 
-- Mit dem ASCII-Code (American Standard Code for Information Interchange) werden Zeichen Zahlen zugeordnet. 
-- Der ASCII-Code umfasst 128  Zeichen und Zahlen von 0 bis 127. 
+- Mit dem ASCII-Code (American Standard Code for Information Interchange) werden Zeichen Zahlen zugeordnet.
+- Der ASCII-Code umfasst 128  Zeichen und Zahlen von 0 bis 127.
 
 <figure style="margin:1em;">
     ![ASCII-Codetabelle](./img/asci-tabelle.svg)
@@ -234,19 +235,18 @@ Schreibweise:   23871<sub>16</sub>
 |------:|------:|------:|
 |   256 |    16 |     1 |
 
-
 ## 1.6 Codierung von Bildern
 
 > [Aufgabe](https://inf-schule.de/kids/datennetze/pixelgrafik)
 
 > 1. Bearbeite die Lernstrecke Pixelgrafik einschließlich des Themas "Bildschärfe und Auflösung" und finde den Aufbau und die Eigenschaften von Pixelgrafiken heraus.
-> 2. Bearbeite das Thema "Ein Bild mit Zahlen darstellen" und erläutere, wie Schwarz und Weiß in einer PBM-Pixelgrafik codiert werden. 
+> 2. Bearbeite das Thema "Ein Bild mit Zahlen darstellen" und erläutere, wie Schwarz und Weiß in einer PBM-Pixelgrafik codiert werden.
 
 ### 1.6.1 Pixelgrafik
 
 <div class=kasten>
-Eine Pixelgrafik auch Rastergrafik  bestehen aus einer rasterförmigen Anordnung sogenannter Pixel (Bildpunkte), denen jeweils eine Farbe zugeordnet ist. 
-Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe. 
+Eine Pixelgrafik auch Rastergrafik  bestehen aus einer rasterförmigen Anordnung sogenannter Pixel (Bildpunkte), denen jeweils eine Farbe zugeordnet ist.
+Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe.
 </div>
 
 ### 1.6.2 PBM-Format "Portable Bitmap"
@@ -257,7 +257,6 @@ Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe.
 |   1   |    P1    | Grafikformat                     |
 |   2   |   5 5    | Anzahl Spalten und Anzahl Zeilen |
 | ab 3  | 0 oder 1 | Helligkeitswert                  |
-
 
 ### 1.6.3 PGM-Format "Portable Graymap"
 
@@ -307,11 +306,13 @@ Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün u
 **Bit**
 Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden (an- oder ausgeschaltet).
 Jeden einzelnen Schalterwert nennt ein Bit.
-Ein Bit ist die kleinste Darstellungseinheit im Computer. 
+Ein Bit ist die kleinste Darstellungseinheit im Computer.
 
 **Byte**
 
-````1 Byte = 1 Bit````
+````
+1 Byte = 8 Bit
+````
 
 ### 1.7.1 Binärpräfix
 
@@ -322,7 +323,6 @@ Ein Bit ist die kleinste Darstellungseinheit im Computer.
 |Mebibyte|MiB|1.048.576 Byte=$2^{20}$ Byte        |
 |Gibibyte|GiB|1.073.741.824 Byte=$2^{30}$ Byte    |
 |Tebibyte|TiB|1.099.511.627.776 Byte=$2^{40}$ Byte|
-
 
 ### 1.7.2 Dezimalpräfix
 

@@ -249,7 +249,7 @@ Eine Pixelgrafik auch Rastergrafik  bestehen aus einer rasterförmigen Anordnung
 Merkmale sind  die Bildgröße (Bildauflösung) und Farbtiefe. 
 </div>
 
-### 1.6.2 PBM-Format "Protable Bitmap"
+### 1.6.2 PBM-Format "Portable Bitmap"
 
 <!-- data-type="none" -->
 | Zeile |  Inhalt  | Bedeutung                        |
@@ -301,3 +301,35 @@ Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün u
 
 > Verändere den maximalen Helligkeitswert in der Grafik.
 > Beschreibe deine Beobachtung.
+
+## 1.7 Bits und Bytes
+
+**Bit**
+Ein Computer kann als Zusammenschluss von Millionen kleiner Schaltern betrachtet werden (an- oder ausgeschaltet).
+Jeden einzelnen Schalterwert nennt ein Bit.
+Ein Bit ist die kleinste Darstellungseinheit im Computer. 
+
+**Byte**
+
+``1 Byte = 1 Bit``
+
+### 1.7.1 Binärpräfix
+
+<!-- data-type="none" -->
+|        |   |                                    |
+|:-------|:--|-----------------------------------:|
+|Kibibyte|KiB|1024 Byte=$2^{10}$ Byte             |
+|Mebibyte|MiB|1.048.576 Byte=$2^{20}$ Byte        |
+|Gibibyte|GiB|1.073.741.824 Byte=$2^{30}$ Byte    |
+|Tebibyte|TiB|1.099.511.627.776 Byte=$2^{40}$ Byte|
+
+
+### 1.7.2 Dezimalpräfix
+
+<!-- data-type="none" -->
+|        |   |                                    |
+|:-------|:--|-----------------------------------:|
+|Kilobyte|kB |1000 Byte=$10^{3}$ Byte             |
+|Megabyte|MB |1000.000 Byte=$10^{6}$ Byte         |
+|Gigabyte|GB |1000.000.000 Byte=$10^{9}$ Byte     |
+|Terabyte|TB |1000.000.000.000 Byte=$10^{12}$ Byte|

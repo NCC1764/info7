@@ -305,6 +305,9 @@ Das RGB-Farbmodell ist ein additives Farbmodell, bei dem die Farben Rot, Grün u
 
 ## 1.7 Bits und Bytes
 
+<!-- style="float:right;width:30%; margin: 2em 2em 2em 2em;" -->
+![Schalter](./img/schalter.png)
+
 **Bit**
 
 <div class=kasten>

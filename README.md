@@ -88,6 +88,12 @@ figurecaption {
 window.LIA.settings.font_size = 2
 @end
 -->
+# Grundlagen
+
+[Lehrplan](https://www.schulportal.sachsen.de/lplandb/index.php?lplanid=630&lplansc=fTqTlkXseYZLUMB5l3pV&token=0c3ede36e7eb9a7dbd855f236c1a30fa#page630_118695)
+
+[Bildungsstandards](https://informatikstandards.de/)
+
 # Wissenschaft Informatik
 
 Teilgebiete der Informatik

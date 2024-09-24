@@ -24,7 +24,7 @@ dark: false
 @style
 
 .lia-header {
-    flex-direction: row !important;
+    flex-direction: column !important;
 }
 
 .lia-slide__footer {

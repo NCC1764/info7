@@ -23,6 +23,10 @@ dark: false
 
 @style
 
+.lia-responsive-voice {
+    display: none !important;
+}
+
 .lia-effect__circle {
     display: none !important;
 }

@@ -23,10 +23,6 @@ dark: false
 
 @style
 
-.lia-slide__footer {
-    display: none !important;
-}
-
 .lia-effect__circle {
     display: none !important;
 }

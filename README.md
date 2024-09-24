@@ -23,6 +23,15 @@ dark: false
 
 @style
 
+#lia-support-menu {
+    flex-direction: column;
+}
+
+.lia-support-menu {
+    flex-direction: column;
+}
+
+
 .lia-slide__footer {
     display: none !important;
 }

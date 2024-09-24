@@ -23,10 +23,6 @@ dark: false
 
 @style
 
-.lia-header {
-    flex-direction: column !important;
-}
-
 .lia-slide__footer {
     display: none !important;
 }

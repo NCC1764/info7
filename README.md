@@ -23,8 +23,8 @@ dark: false
 
 @style
 
-.lia-responsive-voice {
-    display: none !important;
+.lia-slide__footer {
+      display: none !important;
 }
 
 .lia-effect__circle {
